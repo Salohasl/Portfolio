@@ -1,0 +1,270 @@
+body{
+    margin: 0 auto;
+}
+
+.header{
+    display: flex;
+}
+/*--------Заголовок--------*/
+
+.header_h1{
+    padding-top: 5px;
+    margin-left: 20px;
+    font-family:serif;
+    font-weight: lighter;
+    font-size: 25px;
+    
+}
+
+.header_button{
+    cursor:pointer;
+    margin: 20px;
+
+    width: 170px;
+    height: 35px;
+    font-size: 17px;
+
+    background: #CBB695;
+    color: white;
+    border-color: #CBB695;
+    border-radius: 8px;
+    margin-left: auto;
+}
+
+/*--------Container---------*/
+
+.heading{
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-size: 48px;
+    color: #232323;
+}
+
+
+
+.read_area{
+    display: flex;
+}
+.read_image{
+    margin-top: 80px;
+    margin-left: 80px;
+}
+.read_image_text{
+    color: #232323;
+    margin-top: 90px;
+    margin-left: 40px;
+    width: 544px;
+    height: 110px;
+    
+    font-family: 'Noto Sans JP';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 50px;
+}
+
+/*-----------Меню----------*/
+
+.menu{
+    margin-top: 80px;
+    display: flex;
+}
+.living_room{
+    margin-left: 80px;
+}
+.living_room_name{
+    margin-top: 32px;
+    width: 352px;
+    height: 30px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    color: #232323;
+}
+.living_room_description{
+    margin-top: 32px;
+    width: 355px;
+    height: 90px;
+
+    font-family: 'Noto Sans JP';
+    font-style: normal;
+    font-weight:400;
+    font-size: 20px;
+    line-height: 25px;
+    color: #232323;
+}
+
+
+
+
+.dining_room{
+    margin-left: 50px;
+}
+.dining_room_name{
+    margin-top: 32px;
+    width: 352px;
+    height: 30px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    color: #232323;
+}
+.dining_room_description{
+    margin-top: 32px;
+    width: 355px;
+   
+
+    font-family: 'Noto Sans JP';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    color: #232323;
+}
+
+
+
+
+.bedroom{
+    margin-left: 50px;
+}
+.bedroom_name{
+    margin-top: 32px;
+    width: 352px;
+    height: 30px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    color: #232323;
+}
+.bedroom_description{
+    margin-top: 32px;
+    width: 355px;
+
+    font-family: 'Noto Sans JP';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    color: #232323;
+}
+
+/*---------Низ сайта---------*/
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    margin-top: 60px;
+}
+
+
+.footer_logo{
+    position: absolute;
+    margin-top: 141px;
+}
+
+.footer_button{
+    cursor:pointer;
+    margin-top: 210px;
+
+    width: 170px;
+    height: 35px;
+    font-size: 17px;
+
+    background: #CBB695;
+    color: white;
+    border-color: #CBB695;
+    border-radius: 8px;
+    position: absolute;
+}
+
+.footer_text{
+    position: absolute;
+    margin-top: 293px;
+    color: white;
+}
+ 
+
+
+   /*---------------MEDIA-------------*/
+
+@media only screen and (max-width:1200px){
+    .read_image_text{
+        font-size: 20px;
+        margin-right: 15px;
+        margin-top: 75px;
+    }
+    
+    .menu{
+        display: flex;
+        padding-top: 80px;
+    }
+    
+    .dining_room{
+        margin-left: 15%;
+    }
+    
+    .bedroom{
+        margin-left: -60%;
+        margin-top: 500px;
+    }
+}
+
+@media only screen and (max-width:992px){
+    .header{
+        width: 900px;
+    }
+    .main_visual{
+        width: 910px;
+    }
+    .read_area{
+        display: flex;
+    }
+    .read_image_text{
+        font-size: 17px;
+        line-height: 30px;
+        margin-right: -50px; 
+    }
+    .dining_room{
+        margin-left: 50px;
+    }
+    .bedroom{
+        margin-left: -70%;
+    }
+    .footer{
+        width: 910px;
+    }
+}
+
+@media only screen and (max-width:768px){
+    
+}
+
+@media only screen and (max-width:480px){
+    .heading{
+        padding-left: 450px;
+    }
+    .read_image_text{
+        font-size: 20px;
+        line-height: 20px;
+    }
+    .bedroom{
+        margin-left: -135%;
+    }
+}
+
+@media only screen and (max-width:320px){
+    
+}
